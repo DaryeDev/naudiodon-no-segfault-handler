@@ -20,7 +20,7 @@
     "url": "git+https://github.com/DaryeDev/naudiodon-no-segfault-handler.git"
   },
   "dependencies": {
-    "bindings": "^1.5.0",
+    "bindings": "^1.5.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.7"
