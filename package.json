@@ -1,7 +1,7 @@
 {
-  "name": "naudiodon",
-  "version": "2.4.0",
-  "description": "Node Stream bindings for PortAudio.",
+  "name": "naudiodon-no-segfault-handler",
+  "version": "2.4.0-no-segfault-handler",
+  "description": "Node Stream bindings for PortAudio (No segfault-handler for use in electron).",
   "main": "./index.js",
   "types": "./index.d.ts",
   "keywords": [
@@ -13,11 +13,11 @@
     "raspberry pi"
   ],
   "bugs": {
-    "url": "https://github.com/Streampunk/naudiodon/issues"
+    "url": "https://github.com/DaryeDev/naudiodon-no-segfault-handler/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Streampunk/naudiodon.git"
+    "url": "git+https://github.com/DaryeDev/naudiodon-no-segfault-handler.git"
   },
   "dependencies": {
     "bindings": "^1.5.0",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@types/node": "^16.11.7"
   },
-  "author": "Streampunk Media Ltd",
+  "author": "Streampunk Media Ltd (Fork by DaryeDev)",
   "license": "Apache-2.0",
   "scripts": {
     "install": "node-gyp rebuild"
